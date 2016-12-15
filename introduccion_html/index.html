@@ -19,6 +19,53 @@
 
       }
 
+
+      a {
+         color: yellow;
+         transition: all 0.4s;
+      }
+
+      a:visited {
+         color: violet;
+      }
+
+      a:hover, a:focus {
+         color: orange;
+      }
+
+
+      nav,ul,li {
+         margin: 0;
+         padding: 0;
+      }
+
+      li {
+         /*
+         w30%
+         fl
+         dib
+         p16
+         bz
+         bgc
+         */
+         width: 33.33%;
+         float: left;
+         display: inline-block;
+         padding: 16px;
+         background-color: blue;
+         /* necesario para compensar el padding: */
+
+         -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+
+      }
+
+         width: 30%;
+         float: left;
+         display: inline-block;
+         padding: 16px;
+
+
    </style>
 
 </head>
@@ -31,7 +78,7 @@
       <ul>
          <li><a href="secciones/otraseccion.html">Menú 1</a></li>
          <li><a href="secciones/otraseccion2.html">Menú 2</a></li>
-         <li><a href="http://wikipedia.org" target="_blank">Otro enlace</a></li>
+         <li><a href="http://wikipedia.org" target="_blank">Enlace Externo</a></li>
       </ul>
    </nav>
 
